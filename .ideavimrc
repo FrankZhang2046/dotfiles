@@ -1,0 +1,6 @@
+set surround
+set relativenumber
+set clipboard=unnamed
+set clipboard=unnamedplus
+nnoremap gh :action ShowErrorDescription<CR>
+nnoremap <C-p> :action GotoFile<CR>
