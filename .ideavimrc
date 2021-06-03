@@ -2,5 +2,8 @@ set surround
 set relativenumber
 set clipboard=unnamed
 set clipboard=unnamedplus
+set ignorecase
+set hlsearch
 nnoremap gh :action ShowErrorDescription<CR>
-nnoremap <C-p> :action GotoFile<CR>
+nnoremap J 5j
+nnoremap K 5k
