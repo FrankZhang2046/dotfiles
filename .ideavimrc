@@ -10,3 +10,4 @@ nnoremap gh :action ShowErrorDescription<CR>
 nnoremap = :action ReformatCode<CR>
 nnoremap J 5j
 nnoremap K 5k
+nnoremap <ESC><ESC> :nohlsearch<CR>
